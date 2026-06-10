@@ -1,1 +1,22 @@
+let mapleader=' '
+
 set ideajoin
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmode
+set number
+set relativenumber
+set scrolloff=3
+set history=10000
+set clipboard=unnamed
+set clipboard+=ideaput
+
+nnoremap tn gt
+nnoremap tp gT
+
+nnoremap <Leader>sc :nohlsearch<CR>
+nnoremap <Leader>fs :w<CR>
+
+nnoremap <Leader>/ :action Find<CR>
